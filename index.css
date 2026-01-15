@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: hsl(225, 13%, 94%);
+  background-color: hsl(0, 0%, 97%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +155,8 @@ p {
 .third-card-image img {
   width: 40px;
 }
+
+/* Responsiveness */
 
 @media (max-width: 1000px) {
   .section-two {
