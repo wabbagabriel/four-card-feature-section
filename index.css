@@ -1,0 +1,186 @@
+body {
+  margin: 0px;
+  background-color: hsl(225, 13%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+.h2-two {
+  color: hsl(234, 12%, 34%);
+  font-family: "Poppins", sans-serif;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 0px;
+  color: hsl(212, 6%, 44%);
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+/* first card */
+.first-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px hsl(228, 24%, 84%);
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.first-card-image {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.first-card-image img {
+  width: 40px;
+}
+
+/* second card */
+.second-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+/* second card one */
+.second-card-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px hsl(228, 24%, 84%);
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.second-card-one-image {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.second-card-one-image img {
+  width: 40px;
+}
+
+/* second card two */
+
+.second-card-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px hsl(228, 24%, 84%);
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.second-card-two-image {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.second-card-two-image img {
+  width: 40px;
+}
+
+/* third card */
+
+.third-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 10px hsl(228, 24%, 84%);
+  width: 250px;
+  height: 150px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.third-card-image {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.third-card-image img {
+  width: 40px;
+}
+
+@media (max-width: 1000px) {
+  .section-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .second-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-one {
+    width: 280px;
+    text-align: center;
+  }
+}
